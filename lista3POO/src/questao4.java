@@ -18,7 +18,7 @@ public class Carrinho {
         this.mercadorias = new ArrayList<>();
     }
 
-    public MercadoriaProcurar(int codigo) {
+    public Mercadoria procurar(int codigo) {
 
         for (Mercadoria m : mercadorias) {
             if (m.getCodigo() == codigo) {

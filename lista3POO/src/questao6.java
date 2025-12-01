@@ -1,3 +1,4 @@
+//OK  
 public class questao6 {
 
 }
@@ -38,6 +39,11 @@ class Produto {
 
     public void setPreco(double preco) {
         this.preco = preco;
+    }
+
+    @Override
+    public String toString() {
+        return "Produto [Codigo: " + codigo + ", Nome: " + nome + ", Preco: R$ " + String.format("%,2f", preco) + "]";
     }
     
 }
